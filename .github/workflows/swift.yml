@@ -17,10 +17,10 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Checkout esctest for testing
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: migueldeicaza/esctest
         path: esctest
